@@ -1,0 +1,2 @@
+//==========================CALLBACK--FUNCTION=======================================
+// ek function ko aap ek aur fucntion bhejo  uskay parameter mai , to wo  parameter wala function kahlata hai call back function
