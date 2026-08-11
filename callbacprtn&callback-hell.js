@@ -25,13 +25,30 @@ function sarePostlekarAaao(id,callback) {
 
     },3000)
     
+};
+function savedPostNikalo(id, callback){
+    console.log("fetcehing saved data")
+    setTimeout(()=>{
+        callback({
+            _id: id,
+            saved:[1,2,3,4,56]
+        })
+
+    },3000)
 }
 
 
 profleOuter("gaurav", function (data) {
     console.log(data)
+
+
   sarePostlekarAaao(data._id, function(posts) {
     console.log(posts)
+
+
+    savedPostNikalo(data._id, function(saved){
+        console.log(saved)
+    })
 
   });
 });
