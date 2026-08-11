@@ -10,6 +10,8 @@ function profleOuter(username, callback)
               email:"gauri@gamai.com"}
             )
 },2000)
+console.log("fetching profile data.....")
+
 
 };
 function sarePostlekarAaao(id,callback) {
