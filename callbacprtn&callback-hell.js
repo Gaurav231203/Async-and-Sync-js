@@ -1,7 +1,9 @@
 //==========================CALLBACK--FUNCTION=======================================
 // ek function ko aap ek aur fucntion bhejo  uskay parameter mai , to wo  parameter wala function kahlata hai call back function
 function profleOuter(username, callback)
-{setTimeout(()=>{
+{ console.log("fetching profile data.....")
+
+    setTimeout(()=>{
    
     callback(
         { _id: 1234, 
@@ -10,11 +12,11 @@ function profleOuter(username, callback)
               email:"gauri@gamai.com"}
             )
 },2000)
-console.log("fetching profile data.....")
 
 
 };
 function sarePostlekarAaao(id,callback) {
+    console.log("fetching all data........")
     setTimeout(() =>{
         callback({
             _id: id,
