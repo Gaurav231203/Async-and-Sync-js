@@ -41,6 +41,6 @@ Aftersometime(function() {
     console.log("hey");
 
     // Jab setTimeout ka time complete hoga,
-    // tab ye line chalegi → "hey" print hoga
+    // tab ye line chalegi → "hey" print hoga,
 
 });
