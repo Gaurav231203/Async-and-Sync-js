@@ -31,7 +31,7 @@ function Aftersometime(fnc) {
 
 Aftersometime(function() {
 
-    ise bolte hai callabck function
+   // ise bolte hai callabck function
     //ek function ko aap ek aur fucntion bhejo  uskay parameter mai , to wo  parameter wala function kahlata hai call back function
 
     // Ye function Aftersometime() ko diya gaya hai
