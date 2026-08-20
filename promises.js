@@ -12,7 +12,7 @@ let prom =  new Promise ( function(resove,reject){
         
         else resove( "rejected with " + ran);
         
-    }, 300);
+    }, 300)
 });
 
 prom
