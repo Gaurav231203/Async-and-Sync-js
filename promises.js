@@ -16,10 +16,10 @@ let prom =  new Promise ( function(resove,reject){
 });
 
 prom
-.then(function(val){
+//.then(function(val){
     console.log(val);
 
 }).catch(function(val){
   console.log(val);
-  console.log(val)
+  console.log(val);
 })
